@@ -1,0 +1,217 @@
+* {
+
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+ body { 
+
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color : rgb(188, 11, 11) ;
+    height:250vh; 
+
+ }
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header{
+    position: relative;
+    min-height: 60vh;
+    background: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+
+
+}
+
+
+
+.nav {
+    min-height: 8vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items {
+    width: 50%;
+
+    position: relative;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-headline {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 500;
+
+
+}
+
+.todo-section {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgba(84, 18, 190, 0.452);
+}
+
+.bg-dark {
+    background: #000;
+}
+
+.form-todo {
+    /* border:2px solid black; */
+    min-height: 4vh;
+
+
+}
+
+.form-todo input[type="text"] {
+    width: 60%;
+}
+
+.form-todo input[type="submit"] {
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.639);
+    color: white;
+
+}
+
+.todo-list {
+
+    list-style-type: none;
+    text-align: left;
+    margin-top: 1rem;
+
+
+}
+
+.todo-list li{
+    margin-top: 1rem;
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 1.9rem;
+    padding: 0.1rem;
+    text-transform: capitalize;
+    color: rgb(146, 168, 168);
+    position: relative;
+    left: 10%;
+
+    background-color: rgba(0, 0, 0, 0.671);
+
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+.todo-btn{
+
+ 
+    
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+    
+    
+    
+}
+#done-btn:hover{
+    background-color:rgba(6, 255, 114, 0.26);
+}
+#remove-btn:hover{
+    background-color: red;
+}
+
+
+
+.section-signup {
+    margin-top: 3rem;
+
+}
+
+.signup-form {
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    position: relative;
+    left: 20%;
+
+}
+
+.signup-form label {
+    display: block;
+}
+
+.signup-form input {
+    display: block;
+    width: 60%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn {
+
+    position: relative;
+    left: 20%;
+    border-radius: 10%;
+
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+
+.clicked{
+position:relative;
+top:2rem;
+right:2rem;
+    margin-top:1rem;
+    border-radius: 20%;
+    background-color: rgb(248, 248, 248);
+    color: black;
+cursor:pointer;
+}
